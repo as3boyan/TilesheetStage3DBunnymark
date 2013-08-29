@@ -1,0 +1,18 @@
+-main ApplicationMain 
+-lib openfl-compatibility
+-lib openfl
+-cp src
+-D tools=1
+-D openfl_ver=1.0.9
+-D nme
+-D openfl
+-D nme_install_tool
+-D display
+-D web
+--no-output
+-swf-version 11
+-swf bin/flash/bin/BunnyMark.swf
+-swf-header 480:640:60:FFFFFF
+-cp bin/flash/haxe
+#--remap nme:flash
+

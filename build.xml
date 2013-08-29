@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+  <app file="BunnyMark" title="BunnyMark" main="BunnyMark" package="aze.nme.bunnymark" version="1.0.0" company="NME" />
+  
+  <set name="fullscreen" if="target_ios" />
+  <set name="fullscreen" if="target_android" />
+  <set name="fullscreen" if="target_webos" />
+  
+  <set name="SWF_VERSION" value="11.2" if="flash" />
+
+  <window width="480" height="640" fps="65" background="#CCCCCC" resizable="true" />
+  <window width="0" height="0" orientation="portrait" if="fullscreen" />
+
+  <set name="BUILD_DIR" value="bin" />
+
+  <classpath name="src" />
+  <classpath name="C:\Users\Denis\Downloads\tilesheet-stage3d-read-only2\src" />
+
+  <haxelib name="openfl" />
+
+  <assets path="assets" include="*" exclude="nme.svg" />
+  
+  <icon name="assets/nme.svg" />
+
+</project>
