@@ -15,7 +15,7 @@
   <set name="BUILD_DIR" value="bin" />
 
   <classpath name="src" />
-  <classpath name="C:\Users\Denis\Downloads\tilesheet-stage3d-read-only2\src" />
+  <classpath name="tilesheet-stage3d-read-only2\src" />
 
   <haxelib name="openfl" />
 
