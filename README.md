@@ -1,3 +1,7 @@
+Dependencies: TilesheetStage3D
+https://github.com/as3boyan/TilesheetStage3D
+
+
 **haxe NME performance and features demo**
 
 This project aims to show how NME rocks to target native platforms: iOS/Android/webos/Mac/Win/Linux
