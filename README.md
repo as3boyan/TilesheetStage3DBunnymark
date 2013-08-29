@@ -1,6 +1,9 @@
 Dependencies: TilesheetStage3D
 https://github.com/as3boyan/TilesheetStage3D
 
+TilesheetStage3D Bunnymark flash version:
+https://dl.dropboxusercontent.com/u/107033883/TilesheetStage3D/index.html
+
 
 **haxe NME performance and features demo**
 
